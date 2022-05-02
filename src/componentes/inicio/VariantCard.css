@@ -1,0 +1,71 @@
+.VariantCard-container{
+	
+	width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+	
+}
+.cards {
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    background: #fff;
+    display: grid;
+    height: 350px;
+    margin: 2%;
+	margin-top: 10%;
+    align-items: center;
+    position: relative;
+    width: 300px;
+    border: solid 2px rgba(80, 78, 230, 0.123);
+    justify-items: center;
+}
+
+
+
+.card-1 {
+	box-shadow: 0 1px 3px rgba(30, 23, 92, 0.616), 0 1px 2px rgba(0, 0, 0, 0.24);
+	transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.card-1:hover {
+	box-shadow: 0 14px 28px rgba(24, 49, 116, 0.459), 0 10px 10px rgba(0, 0, 0, 0.22);
+	transform: scale(1.05);
+}	
+
+.cards>img {
+	position: relative;
+	margin-top: 35px;
+	margin-bottom: 8px;
+}
+
+.cards>H2 {
+	font-family: 'PT Sans', sans-serif;
+}
+
+.cards>p {
+	font-family: 'PT Sans', sans-serif;
+	padding-left: 2.2rem;
+	padding-right: 2.2rem;
+}
+
+.btns {
+	background: #172d46;
+	border: 0;
+	border-radius: .375em;
+	color: #fff;
+	cursor: pointer;
+	margin: .25em;
+	padding: 0.75em 1.4em;
+	font-size: 0.8em;
+	transition: all .125s ease-in-out;
+}
+
+.btns:hover{
+	transform: scale(1.03);
+	filter: invert();
+}
+
+
+
+
+

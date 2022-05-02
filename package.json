@@ -1,0 +1,70 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.3.1",
+    "@mui/material": "^5.2.7",
+    "@skits/react-cursor": "^1.0.1",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.1",
+    "@testing-library/user-event": "^12.2.2",
+    "axios": "^0.21.4",
+    "card3d": "^2.0.0",
+    "gsap": "^3.9.1",
+    "jquery": "^3.6.0",
+    "material-ui-audio-player": "^1.7.1",
+    "mui-audio-player": "^1.0.1",
+    "particles-bg": "^2.5.5",
+    "react": "^16.14.0",
+    "react-animated-3d-card": "^1.0.2",
+    "react-animated-bg": "^1.2.2",
+    "react-animated-cursor": "^2.4.0",
+    "react-audio-player": "^0.17.0",
+    "react-carousel-minimal": "^1.4.1",
+    "react-dom": "^16.14.0",
+    "react-draggable": "^4.4.4",
+    "react-h5-audio-player": "^3.8.3",
+    "react-parallax-card": "^0.5.7",
+    "react-player": "^2.9.0",
+    "react-redux": "^7.2.5",
+    "react-responsive": "^9.0.0-beta.6",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "4.0.0",
+    "react-special-cursor": "^1.2.0",
+    "react-spring": "^8.0.27",
+    "react-tsparticles": "^2.0.6",
+    "redux": "^4.1.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.2.1",
+    "typewriter-effect": "^2.18.2",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

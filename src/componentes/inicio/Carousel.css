@@ -1,0 +1,18 @@
+.vidContain {
+    height: 600px;
+    position:relative;
+    display:inline-block;
+    margin:10px;
+}
+.vid {
+    position: absolute; 
+    top: 0; left:0;
+    height: 90vh;
+    z-index: -1;
+}    
+.content {
+    position:absolute;
+    top:0; left:0;
+    background: black;
+    color:white;
+}
